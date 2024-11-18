@@ -6,8 +6,8 @@ import EducationItem from './EducationItem'
 const Education = () => {
   const ctx = useContext(BuilderContext)
   const newItem = {
-    degree: 'Software Engineering - University of Sydney',
-    date: 'Mar 2017 - Dec 2019',
+    degree: 'Computer Science - Stanford University',
+    date: 'Sep 2015 - Jun 2019',
   }
   const [education, setEducation] = useState(ctx.getComponentData('Education'))
   const handleChange = (i, e) => {

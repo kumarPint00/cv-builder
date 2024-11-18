@@ -11,12 +11,12 @@ function App() {
     components: [
       {
         type: 'Profile',
-        name: 'John Doe',
-        profession: 'Junior Developer',
+        name: 'Ravi Kumar',
+        profession: 'Senior Developer',
         profileImageURL: 'https://i.imgur.com/f6L6Y57.png',
         display: true,
         about:
-          'Recent college graduate with experience in various areas of software engineering, including infrastructure and data analytics. A fast learner who thrives on generating innovative ideas, trouble-shooting and problem-solving, and working with object-oriented programming languages including Python and Java. ',
+          'Experienced software developer with a strong background in full-stack development. Proficient in modern web technologies and passionate about building scalable and efficient applications.',
       },
 
       {
@@ -25,8 +25,8 @@ function App() {
         display: true,
         items: [
           {
-            degree: 'Software Engineering - University of Sydney',
-            date: 'Mar 2017 - Dec 2019',
+            degree: 'Computer Science - IIT Delhi',
+            date: 'Sep 2010 - Jun 2014',
           },
         ],
       },
@@ -34,7 +34,7 @@ function App() {
         header: 'Key Skills',
         type: 'KeySkills',
         display: true,
-        text: '• Knowledge of basic coding languages including C++, HTML5, and JavaScript.\n• Basic knowledge of  SQL, NoSQL databases\n• Knowledgable on Node.js, Spring, Hibernate\n• Extensive Linux/Unix experience\n• Software testing (Jest, Chai, Mocha)\n• CI/CD Basics ',
+        text: '• Proficient in JavaScript, Python, and Java.\n• Experienced with React, Node.js, and Django.\n• Strong understanding of SQL and NoSQL databases.\n• Expertise in cloud services like AWS and Azure.\n• Excellent problem-solving and debugging skills.',
       },
       {
         header: 'Employment History',
@@ -42,20 +42,20 @@ function App() {
         display: true,
         items: [
           {
-            position: 'Software Engineer - Bank of E-Corp',
-            date: 'Mar 2017 - Dec 2019',
+            position: 'Senior Software Engineer - Tech Solutions Inc.',
+            date: 'Jan 2018 - Present',
             description:
-              'Bank of E-Corp is a Banking Financial Institution in the US.\nAs a Software Engineer, I work on their banking platform in an Agile environment.\n My daily responsibilities include: ',
+              'Tech Solutions Inc. is a leading provider of innovative software solutions. As a Senior Software Engineer, I lead a team of developers in designing and implementing cutting-edge applications.',
             responsibilities:
-              '• Participating in daily stand up meetings, led by our Scrum Master\n • Utilizing the MEAN stack to enhance and maintain our banking platform \n• Conducting code peer reviews with other members in my team\n• Participating in product demos\n• Documenting all code changes',
+              '• Leading the development of web applications using React and Node.js.\n• Mentoring junior developers and conducting code reviews.\n• Collaborating with cross-functional teams to define project requirements.\n• Ensuring the scalability and performance of applications.',
           },
           {
-            position: 'Junior Software Developer - Steel Mountain',
-            date: 'Mar 2015 - Dec 2016',
+            position: 'Software Developer - Web Innovations',
+            date: 'Jul 2014 - Dec 2017',
             description:
-              'Bank of E Network is a Banking Financial Institution in the US.\nAs a Software Developer, I work on their banking platform in an Agile environment.\n My daily responsibilities include: ',
+              'Web Innovations is a startup focused on creating web-based solutions for various industries. As a Software Developer, I contributed to the development of several key projects.',
             responsibilities:
-              '• Built RESTful API that served data to the JavaScript front-end based on \n   dynamicially chosen user inputs that handled over 100,000 concurrent users.\n • Built international tool using NodeJS and Pupeteer.js to automate QA. \n• Conducting code peer reviews with other members in my team\n• Documenting all code changes ',
+              '• Developed and maintained web applications using Django and React.\n• Implemented RESTful APIs and integrated third-party services.\n• Participated in agile development processes and sprint planning.\n• Wrote unit and integration tests to ensure code quality.',
           },
         ],
       },
@@ -65,9 +65,9 @@ function App() {
         display: true,
         items: [
           {
-            name: 'Poker Simulator',
+            name: 'E-commerce Platform',
             description:
-              '• Built a full-stack app to allow users to stimulate and visualize outcomes \n    of poker hand against opponents\n • Utilized ski-kit learn in Python to simulate possible outcomes.\n • Used Javascript, Python, SQL, HTML/CSS',
+              '• Developed a scalable e-commerce platform using React and Node.js.\n• Implemented features such as user authentication, product management, and payment processing.\n• Deployed the application on AWS and ensured high availability.',
           },
         ],
       },
@@ -78,8 +78,8 @@ function App() {
         display: false,
         items: [
           {
-            text: 'Python',
-            level: '25%',
+            text: 'JavaScript',
+            level: '90%',
           },
         ],
       },
@@ -89,11 +89,11 @@ function App() {
         display: true,
         items: [
           {
-            name: 'Oracle Certified\nAssociate (OCA)',
-            date: 'Mar 2020',
+            name: 'Certified Kubernetes Administrator (CKA)',
+            date: 'Mar 2021',
           },
           {
-            name: 'AWS Cloud\n Practitoner',
+            name: 'AWS Certified Solutions Architect',
             date: 'Jul 2020',
           },
         ],
@@ -112,14 +112,14 @@ function App() {
           {
             type: 'LinkedIn',
             enabled: true,
-            url: 'https://linked.in/aaa',
+            url: 'https://linkedin.com/in/ravi-kumar',
             viewBox: '0 0 448 512',
             path: 'M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z',
           },
           {
             type: 'Github',
             enabled: true,
-            url: '',
+            url: 'https://github.com/ravi-kumar',
             viewBox: '0 0 496 512',
             path: 'M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z',
           },
@@ -131,13 +131,13 @@ function App() {
         display: true,
         items: [
           {
-            text: '+61 01 012121',
+            text: '+91 9876543210',
           },
           {
-            text: 'eliot@example.com',
+            text: 'ravi.kumar@example.com',
           },
           {
-            text: 'www.eliotdev.com',
+            text: 'www.ravikumar.dev',
           },
         ],
       },
